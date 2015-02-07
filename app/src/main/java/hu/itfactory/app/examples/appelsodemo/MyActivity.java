@@ -32,7 +32,7 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(),
-                        (CharSequence) getApplicationContext().getPackageCodePath(),
+                        getApplicationContext().getPackageCodePath(),
                         Toast.LENGTH_SHORT).show();
             }
         });
