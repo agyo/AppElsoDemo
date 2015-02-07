@@ -19,7 +19,7 @@ public class MyActivity extends Activity {
         setContentView(R.layout.activity_my);
 
         Button btnShowDateTime = (Button)
-                findViewById(R.id.btnShowDateTime);
+                findViewById( R.id.btnShowDateTime );
 
         btnShowDateTime.setOnLongClickListener( new View.OnLongClickListener() {
             @Override
