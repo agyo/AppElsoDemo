@@ -24,7 +24,7 @@ public class MyActivity extends Activity {
             @Override
             public boolean onLongClick(View view) {
                 Toast.makeText( getApplicationContext(), "valami", Toast.LENGTH_SHORT).show();
-                return true;
+                return false;
             }
         });
 
