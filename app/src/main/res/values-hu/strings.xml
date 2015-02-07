@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="action_settings">Beállítások</string>
+    <string name="app_name">AppElsoDemo!</string>
+    <string name="hello_world">Helló Válág!</string>
+
+</resources>
