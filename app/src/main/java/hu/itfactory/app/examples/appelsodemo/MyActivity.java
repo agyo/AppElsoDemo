@@ -33,7 +33,7 @@ public class MyActivity extends Activity {
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(),
                         (CharSequence) getApplicationContext().getPackageCodePath(),
-                        Toast.LENGTH_LONG).show();
+                        Toast.LENGTH_SHORT).show();
             }
         });
     }
